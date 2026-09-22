@@ -1,0 +1,14 @@
+name: GptChat
+version: 1.0.0
+main: com.sahrasmp.gptchat.GptChatPlugin
+api-version: '26.2'
+author: SahraSMP
+description: Arabic AI chat integration for Paper.
+commands:
+  gpt:
+    description: Control the Arabic AI chat
+    usage: /gpt <protocol|protccol|stop|ask>
+    permission: gpt.use
+permissions:
+  gpt.use:
+    default: op
